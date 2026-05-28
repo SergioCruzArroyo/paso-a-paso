@@ -1,0 +1,15 @@
+.caja {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+/* selector de desendencia */
+.primera-caja h1 {
+    color: yellow;
+}
+
+.segunda-caja h1 {
+    color: greenyellow;
+}

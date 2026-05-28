@@ -1,0 +1,105 @@
+/* variables */
+:root {
+    --color-fondo-especial: aqua;
+    --padding-cajas: 20px 10px;
+    --radio-borde: 16px
+}
+
+body {
+    margin: 0;
+    margin-bottom: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    color: blue;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+}
+
+div {
+    margin-top: 12px;
+}
+
+ul,
+ol {
+    text-align: start;
+}
+
+/* selector de id */
+#parrafo-videojuegos {
+    color: blueviolet;
+}
+
+/* Selector clase */
+.texto-bol {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Cómo cambiar el tamaño de los contenedores Margin y padding
+Bordes y su radio 
+Border-box
+Sombras
+Variables
+  */
+.caja-1 {
+    width: 300px;
+    height: 200px;
+    background-color: var(--color-fondo-especial);
+    border: 3px solid white;
+    border-radius: 10px;
+    /* uso de padding con uso de doble valor */
+    padding: 20px 10px;
+    /* MARGIN PARA CENTRAR LA CAJA */
+    margin: 30px auto;
+    /* Para evitar que la caja cresca */
+    box-sizing: border-box;
+    /* para agregar sombras a la caja  */
+    box-shadow: 4px 4px 10px grey;
+}
+
+.caja-2 {
+    width: 300px;
+    height: 200px;
+    padding: var(--padding-cajas);
+    background-color: var(--color-fondo-especial);
+    border: 3px solid white;
+    border-radius: var(--radio-borde);
+    margin: 30px auto;
+    /* Para evitar que la caja cresca */
+    box-sizing: border-box;
+    /* para agregar sombras a la caja  */
+    box-shadow: 4px 4px 10px grey;
+}
+
+/* estilizar inputs */
+
+button,
+[type="submit"] {
+    background-color: grey;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 2px solid violet;
+    color: white;
+    font-weight: 600;
+}
+
+.input-transparente {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px dashed white;
+    padding: 8px 4px;
+    color: white;
+}
