@@ -13,3 +13,9 @@
 .segunda-caja h1 {
     color: greenyellow;
 }
+
+/* selector de descendencia directa*/
+.primera-caja > h1 {
+    color: red;
+}
+
